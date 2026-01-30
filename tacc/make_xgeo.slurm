@@ -19,7 +19,7 @@ export NPROCS=1  # NPROCS * OMP_NUM_THREADS <= 45
 
 export CHT=$HOME/CopesHubTsunamis  # for this project
 export CLAW=/work2/04137/rjl/CHTshare/clawpack-CHTshare
-export EXE=$CLAW/tacc/xgeoclaw_260115
+export EXE=$CLAW/tacc/xgeoclaw_260129
 export PYTHONPATH=$PYTHONPATH:$CLAW
 
 date
