@@ -8,7 +8,7 @@ CLAWMAKE = $(CLAW)/clawutil/src/Makefile.common
 # at the unix prompt.
 
 # set in make_xgeo.slurm
-EXE = ./xgeoclaw_niwot_260115
+#EXE = ./xgeoclaw_niwot_260115
 
 
 # Adjust these variables if desired:
