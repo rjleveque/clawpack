@@ -19,7 +19,7 @@ export NPROCS=1  # NPROCS * OMP_NUM_THREADS <= 45
 
 export CHT=$HOME/CopesHubTsunamis  # for this project
 export CLAW=/work2/04137/rjl/CHTshare/clawpack-CHTshare
-export EXE=$CLAW/tacc/xgeoclaw_260115
+export EXE=$CLAW/tacc/xgeoclaw-OS_canals_260118
 export PYTHONPATH=$PYTHONPATH:$CLAW
 
 date
@@ -29,6 +29,6 @@ echo CHT=$CHT
 echo CLAW=$CLAW
 echo PYTHONPATH=$PYTHONPATH
 
-make new
+make new -f Makefile-OS_canals
 
 date
